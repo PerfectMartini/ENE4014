@@ -1,6 +1,6 @@
 /*
  * lec03-cpp-fp 12 page
-*/
+ */
 
 /*
 multsign(positive, positive) returns P

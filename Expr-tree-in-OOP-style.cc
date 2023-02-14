@@ -43,7 +43,7 @@ public:
     }
 };
 
-int main(void) {
+void main(void) {
     Constant* c1 = new Constant(5);
     Constant c2(6);
     Add a(*c1, c2);
@@ -55,5 +55,5 @@ int main(void) {
     delete c1;
     std::cout << a.eval() << std::endl;
 
-    return 0;
+    return;
 }
